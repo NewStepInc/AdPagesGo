@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E37EE120911CEDE466DE2ABB1335BD /* Pods-AdPagesGo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C17164CCE8D9C2B60385E524DD79D /* Pods-AdPagesGo-dummy.m */; };
+		A07F521EBA9A341F23C6CA404BA07FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E020925AAC136BD9699B3B8BEC0220C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		1C64D0A526C2D67D49B334B3ED7683B7 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		1E76D656C11B15B6CFB682993A0A66E8 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		252C17164CCE8D9C2B60385E524DD79D /* Pods-AdPagesGo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdPagesGo-dummy.m"; sourceTree = "<group>"; };
+		377294685D834C4E7BC3D65E4CC5E0C2 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		3D7E36D1A8FC50F5B7DE35CCFDB30747 /* Pods-AdPagesGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdPagesGo.release.xcconfig"; sourceTree = "<group>"; };
+		4B3508885729A1A8778208419665B717 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		79478F02542E09F7D8199AD44C60F76B /* Pods-AdPagesGo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdPagesGo-acknowledgements.plist"; sourceTree = "<group>"; };
+		869E731BE41199AC90FCFD9F31214954 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		938C1D158544855E71299B5F4F86BE38 /* Pods-AdPagesGo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdPagesGo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977535AC749E1D65B55DBD6D66F16B5E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		9C0EB31276F272F05E9700B94DED3643 /* Pods-AdPagesGo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdPagesGo-frameworks.sh"; sourceTree = "<group>"; };
+		A4DE1CC0EAD717860649BD2B0E5FB80B /* libPods-AdPagesGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdPagesGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48777D2662A1B15BEB72DF943FF14FD /* Pods-AdPagesGo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdPagesGo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D75D49B26A58608DA11F92CD71B4F8C1 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		E4BBEA4830944B19D8D536C109BED504 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		EFB973DF8F47DFE05A613D1478359E5F /* Pods-AdPagesGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdPagesGo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0FEA4C2363AEC03ED68D2743BDA415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F521EBA9A341F23C6CA404BA07FDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1726D7EEF7200A0938407181AB5BF8 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A1780355AD9FF0E01BAF466967F05D3E /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		123E5EA7EB7CCA089C8663F90469530B /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A99C3300EF92D4348093443C8076AA2E /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		1EF809F0D4872EDDD1C6EDBF2A93F8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C64D0A526C2D67D49B334B3ED7683B7 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283DE8E6A6C3865E847F98E488AAB609 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1EF809F0D4872EDDD1C6EDBF2A93F8CA /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4283C69ACFC3A39D71BAA69121B1B576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377294685D834C4E7BC3D65E4CC5E0C2 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4611E6F66C7729BDD2C3F76A25DA33A7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E4BBEA4830944B19D8D536C109BED504 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5CF31BEEF32B1306A0D30B36114FD8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D75D49B26A58608DA11F92CD71B4F8C1 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683FED205C6D872B1D9140175B77B1BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977535AC749E1D65B55DBD6D66F16B5E /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D151DE891EE47004577D0ECA5DF11FE /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4611E6F66C7729BDD2C3F76A25DA33A7 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		737D2DD4CA60D1EFB76CA89B6085A432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869E731BE41199AC90FCFD9F31214954 /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E4263027BAA266127D22DF3D36D523B /* Pods */,
+				CADAC4B2A5741675D37BD6927C2BDEA4 /* Products */,
+				C04C24B0A206358C0E53202A7CB6897B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4263027BAA266127D22DF3D36D523B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D151DE891EE47004577D0ECA5DF11FE /* Firebase */,
+				AABA5D05D35ED5B379B33F495824E2A2 /* FirebaseAnalytics */,
+				F23B5F95B4001AA3784137308DC37588 /* FirebaseInstanceID */,
+				0A1726D7EEF7200A0938407181AB5BF8 /* Google-Mobile-Ads-SDK */,
+				283DE8E6A6C3865E847F98E488AAB609 /* GoogleInterchangeUtilities */,
+				123E5EA7EB7CCA089C8663F90469530B /* GoogleSymbolUtilities */,
+				BBDA8A4FED51390B19D4B42B841E4B2B /* GoogleUtilities */,
+				DABDB203B5D66951444F3EC9E6894844 /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1780355AD9FF0E01BAF466967F05D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E020925AAC136BD9699B3B8BEC0220C /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99C3300EF92D4348093443C8076AA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B3508885729A1A8778208419665B717 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABA5D05D35ED5B379B33F495824E2A2 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				5CF31BEEF32B1306A0D30B36114FD8E1 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		BBDA8A4FED51390B19D4B42B841E4B2B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4283C69ACFC3A39D71BAA69121B1B576 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04C24B0A206358C0E53202A7CB6897B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE24398B724F47C2CD3BC6532CA30D61 /* Pods-AdPagesGo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CADAC4B2A5741675D37BD6927C2BDEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE1CC0EAD717860649BD2B0E5FB80B /* libPods-AdPagesGo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABDB203B5D66951444F3EC9E6894844 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				737D2DD4CA60D1EFB76CA89B6085A432 /* Frameworks */,
+			);
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		DE24398B724F47C2CD3BC6532CA30D61 /* Pods-AdPagesGo */ = {
+			isa = PBXGroup;
+			children = (
+				B48777D2662A1B15BEB72DF943FF14FD /* Pods-AdPagesGo-acknowledgements.markdown */,
+				79478F02542E09F7D8199AD44C60F76B /* Pods-AdPagesGo-acknowledgements.plist */,
+				252C17164CCE8D9C2B60385E524DD79D /* Pods-AdPagesGo-dummy.m */,
+				9C0EB31276F272F05E9700B94DED3643 /* Pods-AdPagesGo-frameworks.sh */,
+				938C1D158544855E71299B5F4F86BE38 /* Pods-AdPagesGo-resources.sh */,
+				EFB973DF8F47DFE05A613D1478359E5F /* Pods-AdPagesGo.debug.xcconfig */,
+				3D7E36D1A8FC50F5B7DE35CCFDB30747 /* Pods-AdPagesGo.release.xcconfig */,
+			);
+			name = "Pods-AdPagesGo";
+			path = "Target Support Files/Pods-AdPagesGo";
+			sourceTree = "<group>";
+		};
+		F23B5F95B4001AA3784137308DC37588 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				1E76D656C11B15B6CFB682993A0A66E8 /* FIRInstanceID.h */,
+				683FED205C6D872B1D9140175B77B1BB /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D11F16AEA0C3970B897D1D3532382D1 /* Pods-AdPagesGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA750483E2B37DDE32F12C1A255128D7 /* Build configuration list for PBXNativeTarget "Pods-AdPagesGo" */;
+			buildPhases = (
+				6F330BE72CBDFA998159F66946A53935 /* Sources */,
+				FA0FEA4C2363AEC03ED68D2743BDA415 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdPagesGo";
+			productName = "Pods-AdPagesGo";
+			productReference = A4DE1CC0EAD717860649BD2B0E5FB80B /* libPods-AdPagesGo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CADAC4B2A5741675D37BD6927C2BDEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D11F16AEA0C3970B897D1D3532382D1 /* Pods-AdPagesGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F330BE72CBDFA998159F66946A53935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E37EE120911CEDE466DE2ABB1335BD /* Pods-AdPagesGo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		551B9308D0CABF3A5414577080A44D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7E36D1A8FC50F5B7DE35CCFDB30747 /* Pods-AdPagesGo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEF4EDC0E683E3ADDE00DF30832D4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB973DF8F47DFE05A613D1478359E5F /* Pods-AdPagesGo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA750483E2B37DDE32F12C1A255128D7 /* Build configuration list for PBXNativeTarget "Pods-AdPagesGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEF4EDC0E683E3ADDE00DF30832D4E6 /* Debug */,
+				551B9308D0CABF3A5414577080A44D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AdPagesGo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "runiPhone5s": "react-native run-ios --simulator=\"iPhone 5s\""
+  },
+  "dependencies": {
+    "@exponent/react-native-action-sheet": "^0.2.1",
+    "react": "~15.3.0",
+    "react-mixin": "^2.0.2",
+    "react-native": "0.32.0",
+    "react-native-admob": "^1.1.5",
+    "react-native-barcode-scanner-universal": "^1.0.5",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-communications": "^2.1.0",
+    "react-native-loading-container": "^0.4.0",
+    "react-native-mail": "^1.5.0",
+    "react-native-maps": "0.9.0",
+    "react-native-share": "^1.0.13"
+  }
+}
